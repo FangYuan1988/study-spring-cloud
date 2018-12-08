@@ -9,7 +9,7 @@
         <module name="client" />
         <module name="discovery-server" />
         <module name="service" />
-        <module name="study" />
+        <module name="study-spring-cloud" />
       </profile>
     </annotationProcessing>
   </component>
