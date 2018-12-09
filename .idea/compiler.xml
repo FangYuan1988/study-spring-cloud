@@ -10,6 +10,9 @@
         <module name="config-client-app" />
         <module name="config-server" />
         <module name="discovery-server" />
+        <module name="gateway-service" />
+        <module name="goodbye-service" />
+        <module name="hello-service" />
         <module name="service" />
         <module name="study-spring-cloud" />
       </profile>
@@ -18,9 +21,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
-      <module name="config-client-app" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="discovery-server" options="-parameters" />
+      <module name="config-client-app" options="" />
+      <module name="config-server" options="" />
+      <module name="discovery-server" options="" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="goodbye-service" options="-parameters" />
+      <module name="hello-service" options="-parameters" />
       <module name="service" options="-parameters" />
     </option>
   </component>

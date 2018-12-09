@@ -36,3 +36,30 @@ public class ConfigClientAppApplication {
         return stringBuilder.toString();
     }
 }
+/*
+@SpringBootApplication
+@EnableDiscoveryClient
+@RestController
+@RefreshScope
+public class ConfigClientAppApplication {
+
+	@Autowired
+	private ConfigClientAppConfiguration properties;
+
+	@Value("${some.other.property}")
+	private String someOtherProperty;
+
+	public static void main(String[] args) {
+		SpringApplication.run(ConfigClientAppApplication.class, args);
+	}
+
+	@RequestMapping
+	public String printConfig() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(properties.getProperty());
+		sb.append(" || ");
+		sb.append(someOtherProperty);
+
+		return sb.toString();
+	}
+ */

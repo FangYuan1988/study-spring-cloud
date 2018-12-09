@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-client-app/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-service/pom.xml" />
+        <option value="$PROJECT_DIR$/goodbye-service/pom.xml" />
       </list>
     </option>
   </component>
